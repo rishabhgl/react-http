@@ -1,0 +1,19 @@
+.button{
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    background-color: #3f3f3f;
+    color: aliceblue;
+}
+
+.button:hover,.button:focus{
+    cursor:pointer;
+    background-color:aliceblue;
+    color:#3f3f3f;
+}
+
+button:disabled{
+    cursor:not-allowed;
+    color:#3f3f3f;
+    background-color: aliceblue;
+}

@@ -1,0 +1,28 @@
+.book-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-fields{
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-field{
+    padding: 0.5rem;
+}
+
+.input-field label{
+    width:30%;
+    padding: 0.5rem;
+}
+
+.input-field input{
+    font-size: larger;
+    width:70%;
+}
